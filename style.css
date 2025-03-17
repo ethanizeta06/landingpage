@@ -1,0 +1,46 @@
+.header{
+    font-family: roboto;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+.nombre{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 20px;
+}
+.lista{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    list-style: none;
+}
+.lista li{
+    margin: 15px;
+}
+.selfie{
+    height: 400px;
+    width: 500px;
+}
+.container1{
+    background-color: #1F2937;
+    display: flex;
+}
+.contenido,.selfie{
+    margin: 20px;
+    width: 408,5px;
+    flex-grow: 1;
+}
+.hero{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.presentation{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
